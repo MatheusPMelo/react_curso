@@ -1,0 +1,36 @@
+.container-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-btn .btn{
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: solid 2px rgb(0, 0, 0);
+    transition: .2s all ease-in-out;
+    box-shadow:  0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(70, 70, 88);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.container-btn .btn:hover{
+    border-radius: .5rem;
+    box-shadow:  0 10px 20px rgba(0, 0, 0, 1);
+}
+
+.container-btn .btn:active{
+    background-color: rgb(97, 97, 153);
+    border: solid 2px rgb(255, 255, 255);
+}
+
+.container-btn .btn:disabled{
+    opacity: .3;
+    border: solid 2px rgb(0, 0, 0);
+    box-shadow:  0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    cursor: not-allowed;
+}
